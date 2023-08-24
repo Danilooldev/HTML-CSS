@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tag</title>
+
+    <style>
+        body{
+            background-color: rgb(153, 204, 187);
+        }
+        header{
+            background-color: rgb(158, 158, 158);
+            padding: 10px;
+            
+        }
+        h1{
+            text-align: center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+        nav{
+            background-color: rgb(140, 27, 247);
+            padding: 2px;  
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.651);
+            
+
+            
+            
+        }
+        nav > a{
+            margin-right: 30px;
+            text-decoration: none;
+            
+        }
+        nav>a:hover{
+            color: chartreuse;
+            text-decoration: underline;
+            
+        }
+        main{background-color: blanchedalmond;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding:1px;
+            margin-top: 10px;
+            border-radius: 20px;
+            
+        }
+        main>#assuntos{
+            color: blue;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        main>#noticias{
+            text-justify: auto;
+            background-color: beige;
+        }
+        footer{
+            background-color: brown;
+            padding: 1px;
+            margin-top: 10px;
+        }
+
+
+    
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">LINK</a>
+            <a href="#">link</a>
+            <a href="#">LINK</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>ESTUDOS </p>
+        </section>
+
+            <section id="noticias">
+            <article> 
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi saepe ipsum placeat ratione modi nisi molestiae, deserunt fuga. Neque sequi porro reprehenderit natus optio vitae cumque at, aliquid facere sapiente!</p>
+            </article>               
+            </section>
+    </main>
+    <footer>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident sint at similique omnis culpa tempora laborum nulla accusamus, totam temporibus ipsum alias perferendis, ab quo distinctio non ratione quam voluptates?</p>
+    </footer>
+</body>
+</html>

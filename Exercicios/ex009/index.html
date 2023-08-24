@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HATML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto G">
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir áudeio em HTML5</p>
+    <audio src="midia/Good For You - THBD.mp3" controls autoplay></audio>
+    <audio preload="none" autoplay controls >
+        <source src="midia\Good For You - THBD.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Inserindo Videos Hospedados Localmente</h1>
+    <p>Este video esta hospedado no meu proprio Servidor</p>
+    <video src="midia/videoborboleta.mp4" width=" 700" controls poster="imagens/foto-m.png"></video>
+    <h1>Inserindo video Externos  </h1>
+    <p>Inserindo videos do Youtube</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CAYDRIbXFAc?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+</body>
+</html>
